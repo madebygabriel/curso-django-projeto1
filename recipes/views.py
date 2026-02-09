@@ -7,11 +7,3 @@ def home(request):
     return render(request, 'recipes/home.html', context={
         'name': 'Gabriel Busch'
     })
-
-
-def sobre(request):
-    return render(request, 'me-apague/temp.html')
-
-
-def contato(request):
-    return HttpResponse('contato')
